@@ -39,7 +39,7 @@ function fitScreen(width, height) {
 }
 
 function enableSound() {
-	self.nes.opts.emulateSound = true;
+	self2.nes.opts.emulateSound = true;
 }
 
 if (typeof jQuery !== 'undefined') {
