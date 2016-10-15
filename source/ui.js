@@ -38,6 +38,10 @@ function fitScreen(width, height) {
         });
 }
 
+function enableSound() {
+	self.nes.opts.emulateSound = true;
+}
+
 if (typeof jQuery !== 'undefined') {
     (function($) {
         $.fn.JSNESUI = function(roms) {
