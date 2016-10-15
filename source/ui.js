@@ -38,8 +38,8 @@ function fitScreen(width, height) {
         });
 }
 
-function enableSound() {
-	self2.nes.opts.emulateSound = true;
+function toggleSound() {
+	self2.nes.opts.emulateSound = !self2.nes.opts.emulateSound;
 }
 
 if (typeof jQuery !== 'undefined') {
