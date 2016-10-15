@@ -31,6 +31,13 @@ function pleaseLoad(romToLoad) {
 	self2.loadROM();
 }
 
+function fitScreen(width, height) {
+	self2.screen.animate({
+        	width: width + 'px',
+        	height: height + 'px'
+        });
+}
+
 if (typeof jQuery !== 'undefined') {
     (function($) {
         $.fn.JSNESUI = function(roms) {
