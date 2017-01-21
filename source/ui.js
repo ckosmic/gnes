@@ -31,6 +31,17 @@ function pleaseLoad(romToLoad) {
 	self2.loadROM();
 }
 
+function fitScreen(width, height) {
+	self2.screen.animate({
+        	width: width + 'px',
+        	height: height + 'px'
+        });
+}
+
+function toggleSound() {
+	self2.nes.opts.emulateSound = !self2.nes.opts.emulateSound;
+}
+
 if (typeof jQuery !== 'undefined') {
     (function($) {
         $.fn.JSNESUI = function(roms) {
