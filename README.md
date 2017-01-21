@@ -1,3 +1,7 @@
+GNES
+=====
+An addon for Gmod that allows you to emulate NES games. Running JSNES by Ben Firshman.
+
 JSNES
 =====
 
