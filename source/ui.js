@@ -272,12 +272,12 @@ if (typeof jQuery !== 'undefined') {
                  * Enable and reset UI elements
                  */
                 enable: function() {
-                    this.buttons.pause.attr("disabled", null);
+                    //this.buttons.pause.attr("disabled", null);
                     if (this.nes.isRunning) {
-                        this.buttons.pause.attr("value", "pause");
+                        //this.buttons.pause.attr("value", "pause");
                     }
                     else {
-                        this.buttons.pause.attr("value", "resume");
+                       // this.buttons.pause.attr("value", "resume");
                     }
                     this.buttons.restart.attr("disabled", null);
                     if (this.nes.opts.emulateSound) {
