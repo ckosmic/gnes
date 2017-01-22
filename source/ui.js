@@ -279,12 +279,12 @@ if (typeof jQuery !== 'undefined') {
                     else {
                        // this.buttons.pause.attr("value", "resume");
                     }
-                    this.buttons.restart.attr("disabled", null);
+                    //this.buttons.restart.attr("disabled", null);
                     if (this.nes.opts.emulateSound) {
-                        this.buttons.sound.attr("value", "disable sound");
+                        //this.buttons.sound.attr("value", "disable sound");
                     }
                     else {
-                        this.buttons.sound.attr("value", "enable sound");
+                        //this.buttons.sound.attr("value", "enable sound");
                     }
                 },
             
